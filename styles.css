@@ -13,6 +13,9 @@ body {
 }
 
 /* DIY Composting Page */
+.result-container {
+  max-width: 720px;
+}
 #banner {
   width: 100%;
   background-image: url(assets/diy_banner.svg);
@@ -24,10 +27,18 @@ body {
 
 .video {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
 }
 
-#classes {
+#getStarted li {
+  list-style-image: url(assets/leaf_bullet.svg)
+}
+
+.button-color {
+  background-color: #B3C73B;
+}
+
+/* #classes {
   width: 100%;
   background-image: url(assets/classes.svg);
   background-position: center;
@@ -43,7 +54,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-}
+} */
 
 #otherResults {
   width: 100%;
@@ -88,7 +99,7 @@ body {
 
 /* MOBILE */
 .mobileHide {
-  display: inline;
+  display: block;
 }
 
 .mobileShow {
@@ -100,10 +111,11 @@ body {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  }
-  .scrollcard {
+}
+
+.scrollcard {
     flex: 0 0 auto;
-  }
+}
 
 @media only screen and (max-width: 600px) {
   #banner {
@@ -131,11 +143,16 @@ body {
     height: 170px;
   }
 
+  #otherResults h5 {
+    position: absolute;
+    bottom: 65px;
+  }
+
   .mobileHide {
     display: none;
   }
   .mobileShow {
-    display: inline;
+    display: block;
   }
 }
 
