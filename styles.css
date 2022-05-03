@@ -27,7 +27,11 @@ body {
 
 .video {
   width: 100%;
-  max-width: 800px;
+  max-width: 600px;
+}
+
+#getStarted li {
+  list-style-image: url(assets/leaf_bullet.svg)
 }
 
 .button-color {
@@ -41,7 +45,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-} */
+}
 
 #phipps {
   width: 100%;
@@ -50,7 +54,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-}
+} */
 
 #otherResults {
   width: 100%;
@@ -107,10 +111,11 @@ body {
   display: flex;
   flex-wrap: nowrap;
   overflow-x: auto;
-  }
-  .scrollcard {
+}
+
+.scrollcard {
     flex: 0 0 auto;
-  }
+}
 
 @media only screen and (max-width: 600px) {
   #banner {
@@ -136,6 +141,11 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     height: 170px;
+  }
+
+  #otherResults h5 {
+    position: absolute;
+    bottom: 65px;
   }
 
   .mobileHide {
