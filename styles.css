@@ -30,14 +30,18 @@ body {
   max-width: 800px;
 }
 
-#classes {
+.button-color {
+  background-color: #B3C73B;
+}
+
+/* #classes {
   width: 100%;
   background-image: url(assets/classes.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 250px;
-}
+} */
 
 #phipps {
   width: 100%;
@@ -91,7 +95,7 @@ body {
 
 /* MOBILE */
 .mobileHide {
-  display: inline;
+  display: block;
 }
 
 .mobileShow {
@@ -138,7 +142,7 @@ body {
     display: none;
   }
   .mobileShow {
-    display: inline;
+    display: block;
   }
 }
 
