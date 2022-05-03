@@ -13,6 +13,9 @@ body {
 }
 
 /* DIY Composting Page */
+.result-container {
+  max-width: 720px;
+}
 #banner {
   width: 100%;
   background-image: url(assets/diy_banner.svg);
