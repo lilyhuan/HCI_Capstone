@@ -170,6 +170,7 @@ body {
 
 /*This the styling for the quiz answers */
 .question_button{
+  text-align: left;
   background-color: #FFFFFF; /* White background */
   border: 2.6285px solid #6E7D0C; /* Green border */
   color: black; /* Black text */
@@ -179,7 +180,6 @@ body {
   width: 100%; 
   margin-top: 20px;
 }
-
 
 .btn-group-verticalbutton:not(:last-child) {
   border-bottom: none; /* Prevent double borders */
