@@ -179,6 +179,11 @@ body {
   width: 80%;
 }
 
+/*The styling for the top banner on index */
+.subtext-bold{
+  font-weight: bold;
+}
+
 /*This the styling for the quiz text */
 .question-txt{
   font-weight: 700;
@@ -229,8 +234,8 @@ body {
 }
 /*The heros on the index page */
 .hero-1 {
-  background-color: rgba(231, 249, 233, 1);
-}
+/*  background-color: rgba(231, 249, 233, 1);
+*/}
 .display-5 {
   color: rgba(110, 125, 12, 1);
 }
