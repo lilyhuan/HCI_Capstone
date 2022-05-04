@@ -57,8 +57,10 @@
             <li class="nav-item">
               <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item active">
-              <a class="nav-link" href="quiz_firstquestion.html">New Quiz</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="quiz_firstquestion.html"
+                >Short Quiz: Find Your Composting Method</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
@@ -68,14 +70,44 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                area-haspopup="true"
               >
                 All Resources
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="result_diy.html"
+                <li class="dropdown-submenu">
+                  <a
+                    class="dropdown-item dropdown-toggle"
+                    href="result_diy.html"
                     >DIY Composting</a
                   >
+                  <ul class="dropdown-menu">
+                    <li>
+                      <a class="dropdown-item" href="result_diy.html#getStarted"
+                        >How to Get Started</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="result_diy.html#classes"
+                        >Classes, Webinars, Workshops</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="result_diy.html#phipps"
+                        >Phipps Homegrown Program</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="result_diy.html#articles"
+                        >Articles About Composting</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="result_diy.html#books"
+                        >Composting Books</a
+                      >
+                    </li>
+                  </ul>
                 </li>
                 <li><a class="dropdown-item" href="#">Social Composting</a></li>
                 <li>
@@ -89,10 +121,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Database</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources for Big Businesses</a>
+              <a class="nav-link" href="#">Find Composting Centers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faqs.html">FAQs</a>
@@ -109,31 +138,59 @@
       </p>
       <div class="btn-group-vertical">
         <button class="question_button mx-auto">
-          <label for="btncheck1">It’s hard to find information on getting started.</label>
-          <input class="form-check-input" id="btncheck1" type="checkbox" value=""/>
+          <label for="btncheck1"
+            >It’s hard to find information on getting started.</label
+          >
+          <input
+            class="form-check-input"
+            id="btncheck1"
+            type="checkbox"
+            value=""
+          />
         </button>
         <button class="question_button mx-auto">
           <label for="btncheck2">It’s hard to keep up the habit.</label>
-          <input class="form-check-input" id="btncheck2" type="checkbox" value=""/>
+          <input
+            class="form-check-input"
+            id="btncheck2"
+            type="checkbox"
+            value=""
+          />
         </button>
         <button class="question_button mx-auto">
           <label for="btncheck3">I don’t have space to compost.</label>
-          <input class="form-check-input" id="btncheck3" type="checkbox" value="" />
+          <input
+            class="form-check-input"
+            id="btncheck3"
+            type="checkbox"
+            value=""
+          />
         </button>
         <button class="question_button mx-auto">
           <label for="btncheck4">I feel like I don’t have the time.</label>
-          <input class="form-check-input" id="btncheck4" type="checkbox" value="" />
+          <input
+            class="form-check-input"
+            id="btncheck4"
+            type="checkbox"
+            value=""
+          />
         </button>
         <button class="question_button mx-auto">
           <label for="btncheck5">I’m afraid it will smell.</label>
-          <input class="form-check-input" id="btncheck5" type="checkbox" value="" />
-        </button> 
+          <input
+            class="form-check-input"
+            id="btncheck5"
+            type="checkbox"
+            value=""
+          />
+        </button>
         <button
           onclick="nextQuestion()"
           id="smallerbutton"
           type="button"
           class="my-4 btn mx-auto btn-warning"
-        > Next
+        >
+          Next
         </button>
       </div>
     </div>

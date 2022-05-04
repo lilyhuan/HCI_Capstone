@@ -55,29 +55,36 @@
         >
           <ul class="navbar-nav nav-fill mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"
+              <a class="nav-link" aria-current="page" href="index.html"
                 >Home</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="quiz_firstquestion.html">New Quiz</a>
+              <a class="nav-link" href="quiz_firstquestion.html">Short Quiz: Find Your Composting Method</a>
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link active dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                area-haspopup="true"
               >
                 All Resources
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="result_diy.html"
-                    >DIY Composting</a
-                  >
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="result_diy.html"
+                    >DIY Composting</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="result_diy.html#getStarted">How to Get Started</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#classes">Classes, Webinars, Workshops</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#phipps">Phipps Homegrown Program</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#articles">Articles About Composting</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#books">Composting Books</a></li>
+                  </ul>
                 </li>
                 <li><a class="dropdown-item" href="#">Social Composting</a></li>
                 <li>
@@ -91,10 +98,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Database</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources for Big Businesses</a>
+              <a class="nav-link" href="#">Find Composting Centers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faqs.html">FAQs</a>
@@ -103,6 +107,7 @@
         </div>
       </div>
     </nav>
+    
     <div id="banner" class="img-fluid"></div>
 
     <!-- Result -->
@@ -211,7 +216,7 @@
       </div>
       <!-- How to Get Started Part 2 Desktop-->
       <div class="mt-4 mobileHide">
-        <div class="card border-light mb-3 mx-auto" style="max-width: 600px;">
+        <div class="card border-light mb-3 mx-auto" style="max-width: 600px;" id="classes">
           <div class="row g-0">
             <div class="col-md-5">
               <h3 class="card-title basecolor lh-lg fs-2 fw-bold">Classes, <br>Webinars, Workshops</h3>
@@ -233,7 +238,7 @@
       </div>
       <hr>
       <div class="mt-4 mobileHide">
-        <div class="card border-light mb-3 mx-auto" style="max-width: 600px;">
+        <div class="card border-light mb-3 mx-auto" style="max-width: 600px;" id="phipps">
           <div class="row g-0">
             <div class="col-md-5">
               <h3 class="card-title basecolor lh-lg fs-2 fw-bold">Phipps Homegrown Program</h3>
@@ -256,7 +261,7 @@
       <hr>
       <!-- How to Get Started Part 2 Mobile-->
       <div class="mt-4 mobileShow">
-        <div class="card mb-3 mx-auto shadow" style="max-width: 640px;">
+        <div class="card mb-3 mx-auto shadow" style="max-width: 640px;" id="classes">
           <div class="row g-0">
             <div class="col-md-4 text-white">
               <div id="classes" class="img-fluid"></div>
@@ -277,7 +282,7 @@
       </div>
       
       <div class="mt-4 mobileShow">
-        <div class="card mb-3 mx-auto shadow" style="max-width: 640px;">
+        <div class="card mb-3 mx-auto shadow" style="max-width: 640px;" id="phipps">
           <div class="row g-0">
             <div class="col-md-4 text-white">
               <div id="phipps" class="img-fluid"></div>
@@ -298,7 +303,7 @@
         </div>
       </div>
       <!-- Articles Desktop-->
-      <div class="container mobileHide">
+      <div class="container mobileHide" id="articles">
         <h2 class="text-center fw-bold basecolor mt-4">Articles</h2>
         <div class="container" id="articles">
           <div class="row mx-auto">
@@ -331,7 +336,7 @@
       </div>
 
       <!-- Articles Mobile -->
-      <div class="container mobileShow">
+      <div class="container mobileShow" id="articles">
         <h2 class="text-center fw-bold basecolor mt-4">Articles</h2>
         <div class="container" id="articles">
           <div class="scrolling-wrapper mx-auto">
@@ -364,7 +369,7 @@
       </div>
 
       <!-- Books Desktop -->
-      <div class="container mobileHide">
+      <div class="container mobileHide" id="books">
         <h2 class="text-center fw-bold basecolor mt-4">Books</h2>
         <div class="container" id="articles">
           <div class="row mx-auto">
@@ -401,7 +406,7 @@
       </div>
 
       <!-- Books Mobile -->
-      <div class="container mobileShow">
+      <div class="container mobileShow" id="books">
         <h2 class="text-center fw-bold basecolor mt-4">Books</h2>
         <div class="container" id="articles">
           <div class="scrolling-wrapper mx-auto">

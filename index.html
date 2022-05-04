@@ -38,7 +38,7 @@
     >
       <div class="container-fluid">
         <a class="navbar-brand mobileShow" href="index.html">
-          <img src="/assets/logo_mobile.svg" alt="logo"
+          <img src="assets/logo_mobile.svg" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -62,7 +62,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="quiz_firstquestion.html">New Quiz</a>
+              <a class="nav-link" href="quiz_firstquestion.html">Short Quiz: Find Your Composting Method</a>
             </li>
             <li class="nav-item dropdown">
               <a
@@ -72,14 +72,21 @@
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
+                area-haspopup="true"
               >
                 All Resources
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li>
-                  <a class="dropdown-item" href="result_diy.html"
-                    >DIY Composting</a
-                  >
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="result_diy.html"
+                    >DIY Composting</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="result_diy.html#getStarted">How to Get Started</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#classes">Classes, Webinars, Workshops</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#phipps">Phipps Homegrown Program</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#articles">Articles About Composting</a></li>
+                    <li><a class="dropdown-item" href="result_diy.html#books">Composting Books</a></li>
+                  </ul>
                 </li>
                 <li><a class="dropdown-item" href="#">Social Composting</a></li>
                 <li>
@@ -93,10 +100,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Database</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Resources for Big Businesses</a>
+              <a class="nav-link" href="#">Find Composting Centers</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="faqs.html">FAQs</a>
@@ -266,9 +270,16 @@
     </div> -->
     <!-- Other Ways to Get Involved Desktop Version 2-->
     <div class="mx-0 py-3 mobileHide" id="otherResults">
-      <h2 class="text-center fw-bold basecolor mt-4">Skip to the Quiz Results</h2>
+      <h2 class="text-center fw-bold basecolor mt-4">All Composting Methods</h2>
         <div class="container">
           <a href="result_diy.html">
+            <div class="card mx-auto shadow my-3" id="otherResultsCard">
+              <img src="assets/diy_blur.svg" class="card-img" alt="what i wish i knew before composting">
+              <div class="card-img-overlay text-white">
+                <h3 class="card-title fw-bold">DIY Composting</h5>
+                <p class="card-text">Get your hands dirty!</p>
+              </div>
+            </div>
               <div class="card mx-auto shadow my-3" id="otherResultsCard">
                 <img src="assets/dropoff_blur.svg" class="card-img" alt="what i wish i knew before composting">
                 <div class="card-img-overlay text-white d-flex">
@@ -297,11 +308,24 @@
     <!-- Other Ways to Get Involved Mobile -->
     <div class="mx-0 py-3 mobileShow" id="otherResults">
       <h2 class="text-center fw-bold basecolor mt-4">
-        Skip to the Quiz Results
+        All Composting Methods
       </h2>
       <div class="container">
         <div class="scrolling-wrapper mx-auto">
-          <div class="scrollcard">
+          <div class="scrollcard"> 
+            <div class="card mx-3 shadow" style="width: 14rem">
+              <img
+                src="assets/diy.svg"
+                class="card-img-top"
+                alt="what i wish i knew before composting"
+              />
+              <div class="card-img-overlay text-white">
+                <h5 class="card-title fw-bold">DIY Composting</h5>
+                <p class="card-text">Get your hands dirty!</p>
+              </div>
+            </div>
+          </div>
+          <div class="scrollcard"> 
             <div class="card mx-3 shadow" style="width: 14rem">
               <img
                 src="assets/dropoff.svg"
