@@ -249,7 +249,7 @@ body {
 }
 .subtext {
   color: rgba(110, 125, 12, 1);
-  font-weight: 500;
+  font-weight: bold;
 }
 .button{
   font-weight: bold;
@@ -263,9 +263,6 @@ body {
   position: absolute;
   margin-right: 300px;
 }
-
-/*the Read More's */
-#more {display: none;}
 
 /*Taking away the underline of the FAQ button */
 .faqlink{
