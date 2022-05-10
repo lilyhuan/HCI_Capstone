@@ -11,6 +11,9 @@ This website demonstrates one path for a potential user, the DIY Composting path
 
 This website provides context on why to compost, funnels users to their best composting style, and provides the relevant resources to get started. We hope this to be a valuable addition to the city of Pittsburgh and look forward to the changes this project may bring.
 
+## Design Specs
+Design specifications can be found [here](https://www.figma.com/file/h04h4ZijhaijhgBEgTKk1F/Community-Composting?node-id=2%3A4467). These specs will give further information on how to develop the rest of the pages.
+
 ## Installation
 This website was built with HTML, CSS, JS, and Bootstrap. It provides both a desktop and mobile version. No installations are necessary to run this site.
 
